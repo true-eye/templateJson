@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css" >
+        <link rel="stylesheet" href="css/font-awesome.min.css">        
+        <link rel="stylesheet" href="css/mycss.css">
+        <script src="js/jsontogrid.js"></script>
+        <script>
+            this.onload = function(){
+                readTextFile("../json/sample3.json", function(text){
+                    document.getElementById('root').innerHTML = json2bootgrid(JSON.parse(text));
+                });
+            }
+        </script>
+        <script src="js/jquery-3.3.1.slim.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container" id="root">
+        </div> 
+    </body>
+</html>

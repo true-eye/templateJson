@@ -1,0 +1,29 @@
+.navbar.navbar-3 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger1.svg?color=6a1b9a');
+}
+.row1{
+    text-align: center;
+}
+
+.column-1-1{
+    border: 2px solid black;
+}
+
+.column-1-2{
+    height: 200px;
+}
+
+.row2{
+    height: 100px;
+    text-align: center;
+}
+
+.row3{
+    height: 150px;
+    text-align: center;
+}
+
+.row4{
+    height: 50px;
+    text-align: center;
+}
